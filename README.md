@@ -23,3 +23,10 @@ This project provides a simple REST API built with Django REST Framework to inte
   "prompt": "Tell me a joke!"
 }
 ```
+```
+{
+  "success": true,
+  "ai": "Why don’t scientists trust atoms? Because they make up everything!",
+  "message": "conversation complete"
+}
+```
