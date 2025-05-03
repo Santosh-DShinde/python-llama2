@@ -17,4 +17,4 @@ async def conversation_view(request: ConversationRequest):
 
     response = chat_with_llama2(request.prompt)
 
-    return {"success": True, "ai": response, "message": "Conversation completed successfully"}
+    return {"message": "Conversation completed successfully", "success": True, "ai": response,}
